@@ -1,0 +1,17 @@
+﻿Habitats,Group,Altitude,DistanceToWater,TallVegHeight,ShortVegHeight,FruitTreePresence,StrongFloweringPlantPresence,OrnamentalPresence,RockStructures,TreeShadeArea,RelativeDryness,RelativeDisturbance
+Evergreen,1,35,3800,25,0.5,0,0,0,0,85,0,0
+Deciduous,1,365,2112,20,1,0,0,0,1,100,80,0
+OliveGrove,1,40,601,15,0.5,1,1,0,1,80,50,20
+Maquis,2,10,0,0,1,0,1,0,1,0,30,30
+Phrygana,2,530,3046,0,0.5,0,1,0,1,0,30,0
+Successional,2,75,407,0,1,1,1,0,0,5,20,30
+Agricultural,2,40,3000,0,0.5,0,0,0,0,0,15,60
+Dunes,2,0,0,0,1,0,0,0,0,0,0,0
+Marshlands,3,0,0,0,0.5,0,0,0,0,0,90,0
+LowlandRiver,3,0,0,25,1,0,1,0,0,50,80,0
+HighlandRiver,3,130,0,25,1,1,1,0,0,90,100,0
+Lagoon,3,1,0,0,1,1,1,0,0,5,40,40
+SaltFlats,3,0,0,0,0,0,0,0,0,0,0,0
+LargeTown,4,20,201,18,0.5,1,0,1,1,30,0,100
+SmallTown,4,160,2006,10,0.5,1,1,1,1,30,0,100
+Mixed,5,465,3729,20,1,1,1,0,1,40,15,70
