@@ -53,7 +53,7 @@ summary_by_habitat <- tibble::tibble(
   Evenness  = evenJ
 ) %>%
   left_join(habitatVariables, by = "Habitats")
-write.csv(summary_by_habitat[,c(1:5)], '../results/habitat_summaries.csv', quote=FALSE, row.names = FALSE)
+write.csv(summary_by_habitat[,c(1:5)], '../results/t3_habitat_summaries.csv', quote=FALSE, row.names = FALSE)
 
 speciesAbundances$Habitats<-NULL
 habitatVariables$Habitats<-NULL
@@ -71,7 +71,7 @@ habitatVariables$Group<-factor(habitatVariables$Group)
 #### Abundance-based Bray-Curtis Beta-Diversity ####
 betaAbundResults <- round(beta.pair.abund(speciesAbundances, index.family = "bray")$beta.bray, 2)
 betaAbundResults <- as.matrix(betaAbundResults)
-write.csv(betaAbundResults, "../results/abundance_bray_beta_diversity.csv", quote=FALSE)
+write.csv(betaAbundResults, "../results/t4_abundance_bray_beta_diversity.csv", quote=FALSE)
 
 #### Log-transformed Abundance Analysis #### 
 speciesAbundancesLog<-log(speciesAbundances+1)
@@ -128,7 +128,9 @@ plot_rda_species <- ggplot() +
   labs(title = NULL, x = paste0("RDA1 (", round(100*(summary(rda.1)$cont$importance[2, 1:2]), 2)[[1]], ")"), y = paste0("RDA2 (", round(100*(summary(rda.1)$cont$importance[2, 1:2]), 2)[[2]], ")"))
 
 plot_rda = ggarrange(plot_rda_habitats+ rremove("xlab"), plot_rda_species + rremove("xylab"), align = "hv", common.legend = TRUE, legend = 'right')
+svglite::svglite("../results/f1_rda_clustering.svg", width = 9.75, height = 4.5, bg = "transparent", pointsize = 10)
 annotate_figure(plot_rda, bottom = text_grob(paste0("RDA1 (", round(100*(summary(rda.1)$cont$importance[2, 1:2]), 2)[[1]], ")")))
+dev.off()
 
 
 #### Significant Variable Analysis ####
@@ -168,7 +170,8 @@ plot_wilcox_sfpp <- function(df, yvar, ylim = NULL, show_x_axis = TRUE, show_y_a
   eff <- if (!is.null(wt$estimate)) paste0(", Δ̃ = ", round(unname(wt$estimate), 2)) else ""
   legend("topleft", bty = "n", legend = c(paste0("Wilcoxon: W = ", wt$statistic, eff), paste0("p = ", round(signif(wt$p.value, 3), 3))))
 }
-vars   <- c("Richness", "Abundance", "Shannon_H", "Shannon_J")
+svglite::svglite("../results/f2_altitude_sfpp_correlation.svg", width = 5.25, height = 4.5, bg = "transparent", pointsize = 10)
+vars   <- c("Richness", "Abundance", "Diversity", "Evenness")
 gap_w <- -0.05   # was 0.06
 lay <- matrix(c( 1, 0,  2,
                  3, 0,  4,
@@ -193,11 +196,12 @@ for (i in seq_along(vars)) {
   plot_wilcox_sfpp(summary_by_habitat, v, ylim = ylim_row,
                    show_x_axis = is_bottom, show_y_axis = FALSE)
 }
+dev.off()
 par(mfrow=c(1,1))
 
 
 #### Phylogenetics ####
-tree = read.tree('../data/EUROPEAN_BUTTERFLIES_FULLMCC_DROPTIPED.nwk')
+tree = read.tree('../data/european_butterfly_phylogeny.nwk')
 tree$tip.label = sub("_", " ", tree$tip.label)
 species_names = c("Iphiclides podalirius", "Papilio alexanor", "Papilio machaon", "Carcharodus alceae", "Ochlodes sylvanus", "Pyrgus armoricanus", 
                   "Pyrgus malvae", "Spialia orbifer", "Thymelicus acteon", "Thymelicus sylvestris", "Colias crocea", "Euchloe ausonia", "Gonepteryx cleopatra", 
@@ -255,6 +259,7 @@ node_df <- data.frame(
   node  = 1:(Ntip(tree_subset) + tree_subset$Nnode),
   trait = c(tip_trait, anc)
 )
+svglite::svglite("../results/f3_habitat_phylogeny.svg", width = 7.5, height = 7.5, bg = "transparent", pointsize = 10)
 ggtree(tree_subset, layout = "fan") %<+% node_df +
   geom_tree(aes(colour = trait), size = 0.8) +
   geom_tiplab(size = 2.5, colour = "darkgray") +           # solid label colour
@@ -266,3 +271,4 @@ ggtree(tree_subset, layout = "fan") %<+% node_df +
   ) +
   theme_tree2() + theme_void() +
   theme(legend.position = "right")
+dev.off()
