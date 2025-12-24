@@ -66,7 +66,7 @@ logit01 <- function(x, eps = 1e-6) {
 }
 cols <- c("TSA", "RDr", "RDi")
 habitatVariables[cols] <- lapply(habitatVariables[cols], logit01)
-habitatVariables$Group<-factor(habitatVariables$Group)
+habitatVariables$OP<-factor(habitatVariables$OP)
 
 #### Abundance-based Bray-Curtis Beta-Diversity ####
 betaAbundResults <- round(beta.pair.abund(speciesAbundances, index.family = "bray")$beta.bray, 2)
@@ -137,7 +137,7 @@ dev.off()
 vars     <- c("Richness", "Abundance", "Shannon_H", "Shannon_J")
 col_pts  <- "grey30"
 col_line <- "#5f136e"
-box_cols <- c("#d6e4ff", "#ffd6d6")   # SFPP=0,1
+box_cols <- c("#ffffff", "#ffffff")   # SFPP=0,1
 
 plot_lm_alt <- function(df, yvar, ylim = NULL, show_x_axis = TRUE, show_y_axis = TRUE) {
   ok <- is.finite(df$Alt) & is.finite(df[[yvar]])

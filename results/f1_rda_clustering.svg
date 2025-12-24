@@ -69,22 +69,22 @@
 <circle cx='75.96' cy='184.55' r='1.95' style='stroke-width: 0.71; stroke: none; fill: #5F136E;' />
 <circle cx='80.02' cy='159.45' r='1.95' style='stroke-width: 0.71; stroke: none; fill: #5F136E;' />
 <circle cx='331.26' cy='161.17' r='1.95' style='stroke-width: 0.71; stroke: none; fill: #5F136E;' />
-<text x='113.78' y='145.72' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='39.39px' lengthAdjust='spacingAndGlyphs'>Evergreen</text>
-<text x='87.13' y='242.66' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='40.33px' lengthAdjust='spacingAndGlyphs'>Deciduous</text>
-<text x='153.50' y='83.31' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='42.69px' lengthAdjust='spacingAndGlyphs'>OliveGrove</text>
-<text x='189.72' y='122.47' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Maquis</text>
-<text x='279.90' y='192.72' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='36.55px' lengthAdjust='spacingAndGlyphs'>Phrygana</text>
-<text x='146.04' y='101.39' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='50.28px' lengthAdjust='spacingAndGlyphs'>Successional</text>
-<text x='66.41' y='145.22' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='42.69px' lengthAdjust='spacingAndGlyphs'>Agricultural</text>
-<text x='47.08' y='200.87' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='24.67px' lengthAdjust='spacingAndGlyphs'>Dunes</text>
-<text x='96.01' y='171.48' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='44.12px' lengthAdjust='spacingAndGlyphs'>Marshlands</text>
-<text x='91.23' y='120.96' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='51.70px' lengthAdjust='spacingAndGlyphs'>LowlandRiver</text>
-<text x='154.49' y='134.57' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='53.59px' lengthAdjust='spacingAndGlyphs'>HighlandRiver</text>
-<text x='78.16' y='133.05' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='28.50px' lengthAdjust='spacingAndGlyphs'>Lagoon</text>
-<text x='51.35' y='175.46' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='33.20px' lengthAdjust='spacingAndGlyphs'>SaltFlats</text>
-<text x='86.39' y='194.57' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='41.94px' lengthAdjust='spacingAndGlyphs'>LargeTown</text>
+<text x='113.72' y='145.71' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='39.39px' lengthAdjust='spacingAndGlyphs'>Evergreen</text>
+<text x='87.27' y='242.61' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='40.33px' lengthAdjust='spacingAndGlyphs'>Deciduous</text>
+<text x='168.85' y='69.32' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='42.69px' lengthAdjust='spacingAndGlyphs'>OliveGrove</text>
+<text x='189.82' y='122.45' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Maquis</text>
+<text x='295.14' y='178.82' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='36.55px' lengthAdjust='spacingAndGlyphs'>Phrygana</text>
+<text x='146.04' y='101.36' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='50.28px' lengthAdjust='spacingAndGlyphs'>Successional</text>
+<text x='56.09' y='145.80' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='42.69px' lengthAdjust='spacingAndGlyphs'>Agricultural</text>
+<text x='47.09' y='200.89' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='24.67px' lengthAdjust='spacingAndGlyphs'>Dunes</text>
+<text x='96.01' y='171.46' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='44.12px' lengthAdjust='spacingAndGlyphs'>Marshlands</text>
+<text x='107.92' y='121.63' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='51.70px' lengthAdjust='spacingAndGlyphs'>LowlandRiver</text>
+<text x='154.49' y='134.58' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='53.59px' lengthAdjust='spacingAndGlyphs'>HighlandRiver</text>
+<text x='73.60' y='133.65' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='28.50px' lengthAdjust='spacingAndGlyphs'>Lagoon</text>
+<text x='51.35' y='175.52' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='33.20px' lengthAdjust='spacingAndGlyphs'>SaltFlats</text>
+<text x='86.43' y='194.61' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='41.94px' lengthAdjust='spacingAndGlyphs'>LargeTown</text>
 <text x='55.46' y='159.18' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='41.42px' lengthAdjust='spacingAndGlyphs'>SmallTown</text>
-<text x='323.68' y='157.28' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='22.77px' lengthAdjust='spacingAndGlyphs'>Mixed</text>
+<text x='323.67' y='157.27' text-anchor='middle' style='font-size: 8.54px; font-style: italic;fill: #5F136E; font-family: "Arial";' textLength='22.77px' lengthAdjust='spacingAndGlyphs'>Mixed</text>
 <polygon points='189.01,104.05 191.64,108.61 186.38,108.61 ' style='stroke-width: 0.71; stroke: none; fill: #E65D2F; fill-opacity: 0.30;' />
 <polygon points='187.46,49.30 190.09,53.86 184.82,53.86 ' style='stroke-width: 0.71; stroke: none; fill: #E65D2F; fill-opacity: 0.30;' />
 <polygon points='330.79,191.26 333.42,195.82 328.16,195.82 ' style='stroke-width: 0.71; stroke: none; fill: #E65D2F; fill-opacity: 0.30;' />
@@ -136,12 +136,12 @@
 <polygon points='131.78,142.23 134.41,146.79 129.15,146.79 ' style='stroke-width: 0.71; stroke: none; fill: #E65D2F; fill-opacity: 0.30;' />
 <polygon points='141.95,154.55 144.58,159.11 139.32,159.11 ' style='stroke-width: 0.71; stroke: none; fill: #E65D2F; fill-opacity: 0.30;' />
 <polygon points='141.95,154.55 144.58,159.11 139.32,159.11 ' style='stroke-width: 0.71; stroke: none; fill: #E65D2F; fill-opacity: 0.30;' />
-<line x1='128.35' y1='151.78' x2='182.74' y2='166.44' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<polyline points='177.26,167.90 182.74,166.44 178.74,162.43 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<line x1='128.35' y1='151.78' x2='171.35' y2='129.72' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<polyline points='168.27,134.49 171.35,129.72 165.68,129.44 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<text x='190.83' y='162.58' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='11.62px' lengthAdjust='spacingAndGlyphs'>Alt</text>
-<text x='179.38' y='125.90' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='26.00px' lengthAdjust='spacingAndGlyphs'>SFPP</text>
+<line x1='128.35' y1='151.78' x2='230.72' y2='179.38' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='225.24,180.84 230.72,179.38 226.72,175.37 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<line x1='128.35' y1='151.78' x2='209.28' y2='110.26' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='206.20,115.02 209.28,110.26 203.62,109.98 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='222.58' y='190.42' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='11.62px' lengthAdjust='spacingAndGlyphs'>Alt</text>
+<text x='201.18' y='121.27' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='26.00px' lengthAdjust='spacingAndGlyphs'>SFPP</text>
 <line x1='31.75' y1='151.78' x2='345.52' y2='151.78' style='stroke-width: 1.07; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='128.35' y1='291.63' x2='128.35' y2='5.48' style='stroke-width: 1.07; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 </g>
@@ -297,12 +297,12 @@
 <text x='482.78' y='146.14' text-anchor='middle' style='font-size: 9.96px; font-style: italic;fill: #E65D2F; font-family: "Arial";' textLength='30.80px' lengthAdjust='spacingAndGlyphs'>P.armo</text>
 <text x='492.95' y='158.20' text-anchor='middle' style='font-size: 9.96px; font-style: italic;fill: #E65D2F; font-family: "Arial";' textLength='23.78px' lengthAdjust='spacingAndGlyphs'>S.orb</text>
 <text x='492.95' y='158.20' text-anchor='middle' style='font-size: 9.96px; font-style: italic;fill: #E65D2F; font-family: "Arial";' textLength='25.45px' lengthAdjust='spacingAndGlyphs'>E.aus</text>
-<line x1='479.35' y1='154.48' x2='533.74' y2='168.83' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<polyline points='528.27,170.32 533.74,168.83 529.71,164.83 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<line x1='479.35' y1='154.48' x2='522.35' y2='132.89' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<polyline points='519.23,137.62 522.35,132.89 516.69,132.56 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<text x='525.67' y='179.80' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='11.62px' lengthAdjust='spacingAndGlyphs'>Alt</text>
-<text x='514.22' y='143.91' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='26.00px' lengthAdjust='spacingAndGlyphs'>SFPP</text>
+<line x1='479.35' y1='154.48' x2='581.72' y2='181.49' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='576.25,182.98 581.72,181.49 577.70,177.50 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<line x1='479.35' y1='154.48' x2='560.28' y2='113.84' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='557.16,118.58 560.28,113.84 554.62,113.51 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='573.56' y='192.50' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='11.62px' lengthAdjust='spacingAndGlyphs'>Alt</text>
+<text x='552.18' y='124.79' text-anchor='middle' style='font-size: 9.96px; font-family: "Arial";' textLength='26.00px' lengthAdjust='spacingAndGlyphs'>SFPP</text>
 <line x1='382.75' y1='154.48' x2='696.52' y2='154.48' style='stroke-width: 1.07; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 <line x1='479.35' y1='291.63' x2='479.35' y2='5.48' style='stroke-width: 1.07; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
 </g>
